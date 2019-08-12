@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Longest Word of the World!</h1>
+  <p>Let's play a little game!</p>
+    <% @letters.each do|letter| %>
+      <li><button type="button" class="btn btn-primary"><%= letter.capitalize %></button></li>
+    <% end %>
+  <p>What is the longest word you can find?</p>
+  <form class="form-inline justify-content-center">
+    <div class="form-group mx-sm-3 mb-2">
+      <label for="inputPassword2" class="sr-only">your word</label>
+      <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Play!</button>
+  </form>
+</div>

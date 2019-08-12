@@ -1,5 +1,7 @@
 {
   "name": "rails-longest-word-game",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
 }
